@@ -21,14 +21,14 @@ public class StudentMarks {
 
 				if (j < 0 || j > 100) {
 					throw new Exception();
-//				} else
-//					stuGrade[i] = j;
-//
-//			} catch (Exception e) {
-//				System.out.println(e);
-//				System.out.println("Enter correct grade");
-//				break;
-//			}
+				} else
+					stuGrade[i] = j;
+
+			} catch (Exception e) {
+				System.out.println(e);
+				System.out.println("Enter correct grade");
+				break;
+			}
 //		}
 //		return stuGrade;
 	}
